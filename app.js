@@ -40,7 +40,7 @@ angular.module('multiFormApp', ['ngAnimate', 'ui.router'])
 		$scope.formData = {};
 		
 		$scope.processForm = function() {
-			alert('Form Process Test.');
+			alert('Form Process Success (mock-up code).');
 		};
 	});
 	
