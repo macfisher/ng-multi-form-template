@@ -3,7 +3,7 @@
 angular.module('multiFormApp', ['ngAnimate', 'ui.router'])
 	
 	// app. routes (ui.router)
-	.config(function($stateProvider, $urlRouteProvider) {
+	.config(function($stateProvider, $urlRouterProvider) {
 		
 		$stateProvider
 			.state('form', {
