@@ -10,6 +10,18 @@
             
             <!-- the links to our nested states using relative paths -->
             <!-- add the active class if the state matches our ui-sref -->
+            
+            <!--
+				"A directive working alongside ui-sref to add classes 
+				to an element when the related ui-sref directive's 
+				state is active, and removing them when it is 
+				inactive. The primary use-case is to simplify the 
+				special appearance of navigation menus relying on 
+				ui-sref, by having the "active" state's menu button 
+				appear different, distinguishing it from the inactive 
+				menu items." -- taken from ui-router API docs
+            -->
+            
             <div id="status-buttons" class="text-center">
                 <a ui-sref-active="active" ui-sref=".profile"><span>1</span> Profile</a>
                 <a ui-sref-active="active" ui-sref=".interests"><span>2</span> Interests</a>
