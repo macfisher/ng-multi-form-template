@@ -29,11 +29,10 @@ angular.module('multiFormApp', ['ngAnimate', 'ui.router'])
 				url: '/payment',
 				templateUrl: 'form-payment.html'
 			});
-		// end $stateProvider
 		
 		// catch all route
 		$urlRouterProvider.otherwise('/form/profile');
-	}) // end .config obj.
+	})
 	
 	
 	.controller('formController', function($scope) {
